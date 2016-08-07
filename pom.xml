@@ -7,7 +7,7 @@
     <version>1.0.1-SNAPSHOT</version>
 
     <name>spring-security-login-and-registration</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -272,8 +272,8 @@
             </plugin>
 
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
             <plugin>
